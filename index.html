@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-body shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="imagees/Mc-logo.jpg" alt="Loading"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="menu-holder">
+          <div class="mb-3 collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="text-dark nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Language
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item " href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Espanol</a></li>
+                      
+                      
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3 "  href="#">Sign Up for Email</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#">Careers</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-lg-0"> 
+              <li class="nav-item">
+                <a class="nav-link  me-3" href="#" ><i class="bi bi-search"></i>Search</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-decoration-underline text-primary me-3" href="#" ><i class="bi bi-geo-alt-fill text-success"></i>Change your Location</a>
+              </li>
+              <button class="bg-warning border-0 rounded" id="order-now">Order now</button>
+             
+            </ul>
+           
+          </div>
+         
+          <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto  mb-lg-0 menu-2">
+                <li class="nav-item me-auto dropdown d-flex">
+                    <a class="text-dark nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Our Menu
+                    </a>
+                    
+                    <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                    <li class="drodpdown-item">
+                        <ul class="dropdown-menu-1">
+                            <li><a class="dropdown-item" href="#"><img src="imagees/brekfast.jpg" alt=""> Breakfast</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="imagees/burgers.jpg" alt=""> Burgers</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="imagees/chickenfishsandwiches.jpg" alt=""> Chicken & Fish Sandwiches</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="imagees/mcnuggetscombo.jpg" alt=""> McNuggets and Meals</a></li>
+                        </ul>
+                    </li>
+                    <li class="drodpdown-item">
+                        <ul class="dropdown-menu-1">
+                            <li><a class="dropdown-item" href="#"><img src="imagees/snacks.jpg" alt="">Fries& Sides</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="imagees/happy_meal.jpg" alt="">Happy Meal</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="imagees/mccafe.jpg" alt="">McCafe Coffees</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="imagees/Menu_LeftRail.jpg" alt="">McCafe Bakery</a></li>
+                        </ul>
+                    </li>
+                    <li class="drodpdown-item">
+                        <ul class="dropdown-menu-1">
+                            <li><a class="dropdown-item" href="#"><img src="imagees/desserts_shakes.jpg" alt="">Sweets & Treats</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="imagees/desserts_shakes.jpg" alt="">Beverages</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="imagees/D123.jpg" alt="">$1 $2 $3 Dollar Menu*</a></li>
+                            
+                        </ul>
+                    </li>
+                      
+                    </ul>
+                    
+                  </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link "  href="#">Download App</a>
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link" href="#">MyMcDonald's Rewards</a>
+              </li>
+              
+              <li class="nav-item m-auto">
+                <a class="nav-link " href="#" >Exclusive Deals</a>
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link " href="#" >About Our Food</a>
+              </li>
+              <li class="nav-item m-auto">
+                <a class="nav-link " href="#" >Locate</a>
+              </li>
+              <li class="nav-item ms-auto">
+                <a class="nav-link " href="#" >Gift Cards</a>
+              </li>
+            </ul>
+           
+          </div>
+          
+        </div>
+        </div>
+      </nav>
+
+
+
+      <div class="container-fluid row-1">
+        <div class="row ">
+            <div class="col-sm-8">
+                <img class="w-100 h-75"  src="imagees/1pub_McDeliveryintheApp_Launch_1168x520.jpg" alt="">
+            </div>
+            <div class="col-sm-4">
+                <h1>Straight to the Points: 
+                    McDelivery® In the App
+                </h1>
+                <p>The McDonald’s app is now the only place you’ll earn MyMcDonald’s Rewards points on 
+                    every McDelivery order. Plus, you can get those free McDonald’s rewards you earn delivered, 
+                    too. Just order, relax and enjoy—we’ll bring your faves to you.*</p>
+                    <br>
+                    <p>*At participating McDonald's. Only in the app. App registration required. Must be opted into MyMcDonald's Rewards.</p>
+                    <br><a class="border-0 bg-warning text-dark text-decoration-none p-2 mb-5 " href="#">Earn Points on McDelivery</a>
+            </div>
+        </div>
+        <div class="row row-item ">
+            <div class="col-sm-8">
+                <img class="w-100 h-75"  src="imagees/1PUB_DLIncentive_FreeFries1MinPurchase_Loyalty_2336x1040.jpg" alt="">
+            </div>
+            <div class="col-sm-4">
+                <h1>Free Fries Now. Free McDonald’s Later.*
+                </h1>
+                <p>Get Free Large Fries with a $1 minimum purchase when you download the McDonald’s
+                     app & join MyMcDonald’s Rewards. Then, unlock free McDonald’s faves only in
+                     the app with 1500 points after your first purchase as a MyMcDonald’s Rewards member.</p>
+                    <br>
+                    <p>*Offer valid 1x thru the last day of the month for first time app users at participating McDonald's. 
+                        May take up to 48 hours to appear in your deals. Excludes delivery. Excludes tax. Free MyMcDonald’s
+                         Rewards points valid 1x thru 12/31/23 for first time MyMcDonald’s Rewards users.
+                         Program available only at participating McDonald’s. McD app download and registration required.</p>
+                    <br><a class="border-0 bg-warning text-dark text-decoration-none p-2 mb-5 link-yours" href="#">Get Yours</a>
+            </div>
+        </div>
+        <div class="row row-item ">
+            <div class="col-sm-8">
+                <img class="w-100 h-90"  src="imagees/1PUB_Spotlight_Dorado_1168x520.jpg" alt="">
+            </div>
+            <div class="col-sm-4">
+                <h1>Your Story Deserves a Hollywood Ending
+                </h1>
+                <p>Latinos have stories to tell, yet they make up less than 1% of the ones told in Hollywood. As a champion
+                     of the Hispanic community McDonald’s wants to help change that. With <span class="fw-bold">Spotlight Dorado,</span>  McDonald’s is 
+                     giving aspiring Latino filmmakers a chance to participate in a short film competition. Aspiring 
+                     filmmakers will bring their vision to life having their story produced into a short 
+                    film with invaluable mentorship from renowned industry leaders and a chance to showcase their film in
+                     film festivals around the country.</p>
+                    <br>
+                    <a class="border-0 bg-warning text-dark text-decoration-none p-3 mb-5 link-yours" href="#">Learn More About Spotlight Dorado</a>
+            </div>
+        </div>
+        <div class="row row-item ">
+            <div class="col-sm-8">
+                <img class="w-100 h-75"  src="imagees/1PUB_BAPG_Scholars_EDU_1168x520.jpg" alt="">
+            </div>
+            <div class="col-sm-4">
+                <h1>McDonald’s Black and Positively Golden Scholarship Program Awards $1,000,000 in Scholarships
+                </h1>
+                <p>McDonald’s Black and Positively Golden Scholarship Program awards $1,000,000 in scholarships 
+                    to students attending Historically Black Colleges and Universities (HBCUs) in partnership with the 
+                    Thurgood Marshall College Fund (TMCF). Apply now through March 27th at TMCF.org.</p>
+                    <br>
+                    <a class="border-0 bg-warning text-dark text-decoration-none p-3 mb-5 link-yours" href="#">Apply Now</a>
+            </div>
+        </div>
+        <div class="row row-item ">
+            <div class="col-sm-8">
+                <img class="w-100 h-75"  src="imagees/1PUB_McDelivery_v4_1168x520.jpg" alt="">
+            </div>
+            <div class="col-sm-4">
+                <h1>Order McDelivery® Now*
+                </h1>
+                <p>Get all your McDonald’s favorites delivered right to your doorstep with McDelivery® on Uber Eats, DoorDash or Grubhub.</p>
+                    <br>
+                    <p>*At participating McDonald’s. Prices may be higher than at restaurants. Delivery/service fees apply</p>
+                    <br><a class="border-0 bg-warning text-dark text-decoration-none p-2 mb-5 link-yours" href="#">Order McDelivery Now</a>
+            </div>
+        </div>
+        <div class="row row-item ">
+            <div class="col-sm-8">
+                <img class="w-100 h-100"  src="imagees/1PUB_Desktop_Deals-v1_1168x520.jpg" alt="">
+            </div>
+            <div class="col-sm-4">
+                <h1>Deals for Days
+                </h1>
+                <p>Get <a href="#"> exclusive deals</a> on your McDonald’s favorites in the app with contactless Mobile Order & Pay* and convenient Drive Thru or Curbside pickup.</p>
+                    <br>
+                    <p>*Mobile Order & Pay at participating McDonald’s.</p>
+                    <br><a class="border-0 bg-warning text-dark text-decoration-none p-2 mb-5 link-yours" href="#">Get App Deals</a>
+            </div>
+        </div>
+        
+      </div>
+
+
+
+      <!-- <footer></footer> -->
+
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6>About Us</h6>
+                    <br><div>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">About Us Overview</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Our History</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">LeaderShip Team</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Values In Action</a>
+                        </li>
+                        <li class="hide-content"  style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Franchise Info</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Recalls & Alerts</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Real Estate</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Accessibility</a>
+                        </li>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Investor Relations</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">News & Notifications</a>
+                        </li></div>
+                   
+                </div>
+                <div class="col-md-3 ">
+                    <h6>Services</h6>
+                    <br>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Services Overview</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Wi-Fi</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">PlayPlaces & Parties</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">McDelivery®</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Mobile Order & Pay</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Trending Now</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">McDonald’s Merchandise</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Family Fun Hub</a>
+                        </li>
+                        </li>
+                        <li class="hide-content"  style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">MyMcDonald’s Rewards</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">McCafe®</a>
+                        </li>
+                </div>
+                <div class="col-md-3">
+                    <h6>Community</h6>
+                    <br>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Community</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">HACER® Scholarships for</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Hispanic Students</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Ronald McDonald House</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Charities</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">McDonald’s Asian Pacific</a>
+                        </li>
+                        <li class="hide-content"  style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">American</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">McDonald’s International</a>
+                        </li>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">Black and Positively  Golden</a>
+                        </li>
+                        <li class="hide-content" style="list-style-type: none;">
+                            <a class="text-decoration-none text-dark" href="#">McDonald’s LGBTQ+</a>
+                        </li>
+                </div>
+                <div class="col-md-3">
+                    <h6>Contact Us</h6>
+                    <br>
+                    <li class="hide-content" style="list-style-type: none;">
+                        <a class="text-decoration-none text-dark" href="#">Contact Us</a>
+                    </li>
+                    <li class="hide-content"  style="list-style-type: none;">
+                        <a class="text-decoration-none text-dark" href="#">Gift Card FAQs</a>
+                    </li>
+                    <li class="hide-content"  style="list-style-type: none;">
+                        <a class="text-decoration-none text-dark" href="#">Donations</a>
+                    </li>
+                    <li class="hide-content"  style="list-style-type: none;">
+                        <a class="text-decoration-none text-dark" href="#">Employment</a>
+                    </li>
+                    <li class="hide-content"  style="list-style-type: none;">
+                        <a class="text-decoration-none text-dark" href="#">Customer Feedback</a>
+                    </li>
+                    <li class="hide-content"  style="list-style-type: none;">
+                        <a class="text-decoration-none text-dark" href="#">Frequently Asked <br>Questions</a>
+                    </li>
+                    
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="d-lg-flex">
+                    <div class="d-flex d-md-flex me-auto">
+                        <li style="list-style-type: none;"><a href="#"><img src="facebook.png" alt=""></a></li>
+                        <li style="list-style-type: none;" class="ms-4"><a href="#"><img src="twitter.png" alt=""></a></li>
+                        <li style="list-style-type: none;" class="ms-4"><a href="#"><img src="youtube.png" alt=""></a></li>
+                        <li style="list-style-type: none;" class="ms-4"><a href="#"><img src="instagram.png" alt=""></a></li>
+                        <li style="list-style-type: none;" class="ms-4"><a href="#"><img src="tumblr.png" alt=""></a></li>
+                        <li style="list-style-type: none;" class="ms-4"><a href="#"><img src="spotify.png" alt=""></a></li>
+                    </div>
+                    <div class="d-flex ms-auto">
+                        <li class=" text-center" style="list-style-type: none;" ><a  href="#"><img src="app_store_badge.png" alt=""></a></li>
+                        <li class=" text-center" style="list-style-type: none;" ><a  href="#"><img src="google_play_badge.png" alt=""></a></li>
+                    </div>
+                
+                    
+                </div>
+            </div>
+            <br><br><br>
+            <hr><br><br>
+            <div class="container">
+                <div class="row footer-content" style="font-size: 14px;">
+                    <div class="col-md-7">
+                        <div class="row mb-4">
+                            <div class="col-md-3">
+                                <p>Privacy (Updated)</p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>California Privacy Notice</p>
+                            </div>
+                            <div class="col-md-3">
+                                Terms & Conditions
+                            </div>
+                            <div class="col-md-2">
+                                <p>Accessibility</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p>Do Not Sell or Share My Personal Information</p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>Cookies Settings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img style="width: 50px;" src="imagees/arches-logo_108x108.jpg" alt="">
+                            </div>
+                            <div class="col">
+                                <p>© 2017 - 2022 McDonald's. All Rights 
+                                                               Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
